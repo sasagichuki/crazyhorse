@@ -15,7 +15,7 @@ span: 1
 ```
 
 ```color
-value: '#ff0000'
+value: '#ccc'
 name: 'Light Grey'
 span: 3
 ```
@@ -26,3 +26,12 @@ name: 'Highlight'
 span: 1
 ```
 
+```code
+.Rectangle-108 {
+  width: 476.5px;
+  height: 277px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0 #000000;
+  background-color: #ffffff;
+}
+```
