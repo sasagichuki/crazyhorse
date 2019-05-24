@@ -17,7 +17,7 @@ span: 1
 ```color
 value: '#ccc'
 name: 'Light Grey'
-span: 3
+span: 1
 ```
 
 ```color
@@ -27,6 +27,8 @@ span: 1
 ```
 
 ```code
+collapsed: true
+---
 .Rectangle-108 {
   width: 476.5px;
   height: 277px;
@@ -34,4 +36,10 @@ span: 1
   box-shadow: 0 0 0 0 #000000;
   background-color: #ffffff;
 }
+```
+
+```html
+<div class="button">
+    Hello world
+</div>
 ```
