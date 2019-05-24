@@ -1,17 +1,13 @@
 {
   "name": "dexample",
   "description": "",
-  "homepage": "https://sasagichuki.github.io/crazyhorse/catalog/build",
   "dependencies": {
     "catalog": "^3.6.0",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "scripts": {
     "catalog-start": "catalog start",
-    "catalog-build": "catalog build",
-    "predeploy": "yarn run catalog-build",
-    "deploy": "gh-pages -d catalog/build"
+    "catalog-build": "catalog build"
   }
 }
