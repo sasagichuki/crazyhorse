@@ -26,6 +26,25 @@ name: 'Highlight'
 span: 1
 ```
 
+
+
+Add range of grey colours allowed by d.light
+
+```color-palette|horizontal
+colors:
+   - {value: "#000"}
+   - {value: "#0ee"}
+   - {value: "#0ff"}
+   - {value: "#099"}
+   - {value: "#088"}
+   - {value: "#077"}
+   - {value: "#066"}
+   - {value: "#055"}
+   - {value: "#044"}
+   - {value: "#033"}
+   - {value: "#022"}
+```
+
 ```code
 collapsed: true
 ---
@@ -38,8 +57,4 @@ collapsed: true
 }
 ```
 
-```html
-<div class="button">
-    Hello world
-</div>
-```
+

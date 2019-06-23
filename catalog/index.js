@@ -16,163 +16,115 @@ const pages = [
   },
 
   {
-    title: 'Visual',
+    title: 'Foundations',
     pages: [
       {
-        path: '/patterns',
-        title: 'Basics',
-        content: pageLoader(() => import("./patterns.md")),
+        path: '/grids',
+        title: 'Grids',
+        content: pageLoader(() => import("./grids.md")),
       },
       {
-        path: '/other',
-        title: 'Color',
-        content: pageLoader(() => import("./other.md")),
+        path: '/colors',
+        title: 'Color Palette',
+        content: pageLoader(() => import("./colors.md")),
       },
       {
-        path: '/other',
-        title: 'Text Hierachy',
-        content: pageLoader(() => import("./other.md")),
+        path: '/fonts',
+        title: 'Fonts',
+        content: pageLoader(() => import("./fonts.md")),
       },
       {
-        path: '/other',
-        title: 'Fonts and Weights',
-        content: pageLoader(() => import("./other.md")),
+        path: '/typography',
+        title: 'Typography',
+        content: pageLoader(() => import("./typography.md")),
       },
       {
-        path: '/other',
-        title: 'Iconography',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Color',
+        path: '/spacing',
+        title: 'Spacing',
         content: pageLoader(() => import("./other.md")),
       },
       // Other subpages'
     ]
   },
-
-  {
-    title: 'Page Layouts',
-    pages: [
-      {
-        path: '/patterns',
-        title: 'Common Elements',
-        content: pageLoader(() => import("./patterns.md")),
-      },
-      {
-        path: '/other',
-        title: 'Search Bar',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Navigation',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Badges',
-        content: pageLoader(() => import("./other.md")),
-      },
-      // Other subpages'
-    ]
-  },
-
-  {
-    title: 'Containers',
-    pages: [
-      {
-        path: '/patterns',
-        title: 'Panels',
-        content: pageLoader(() => import("./patterns.md")),
-      },
-      {
-        path: '/other',
-        title: 'Cards',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Tabs',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Accordions',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Drawers',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Modals',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Overlays',
-        content: pageLoader(() => import("./other.md")),
-      },
-      {
-        path: '/other',
-        title: 'Notifications',
-        content: pageLoader(() => import("./other.md")),
-      },
-      // Other subpages'
-    ]
-  },
-
-  {
-    path: "/colors",
-    title: "Colors",
-    content: pageLoader(() => import("./colors.md"))
-  },
-  {
-    path: "/fonts",
-    title: "Fonts",
-    content: pageLoader(() => import("./fonts.md"))
-  },
-  {
-    path: "/images",
-    title: "Images",
-    content: pageLoader(() => import("./images.md")),
-  },
-  {
-    path: "/layout",
-    title: "Layout & Grid",
-    content: pageLoader(() => import("./layout.md")),
-  },
-  {
-    path: "/icons",
-    title: "Icons",
-    content: pageLoader(() => import("./icons.md")),
-  },
-  {
-    path: "/navigation",
-    title: "Navigation",
-    content: pageLoader(() => import("./navigation.md")),
-  },
-
   {
     title: 'Components',
     pages: [
       {
-        path: '/patterns',
-        title: 'Patterns',
-        content: pageLoader(() => import("./patterns.md")),
+        path: '/navigation',
+        title: 'Navigation',
+        content: pageLoader(() => import("./navigation.md")),
       },
       {
-        path: '/other',
-        title: 'Other',
-        content: pageLoader(() => import("./other.md")),
+        path: '/cards',
+        title: 'Cards',
+        content: pageLoader(() => import("./cards.md")),
+      },
+      {
+        path: '/buttons',
+        title: 'Buttons',
+        content: pageLoader(() => import("./buttons.md")),
+      },
+      {
+        path: '/modals',
+        title: 'Modals',
+        content: pageLoader(() => import("./navigation.md")),
+      },
+      {
+        path: '/tables',
+        title: 'Tables',
+        content: pageLoader(() => import("./cards.md")),
+      },
+      {
+        path: '/lists',
+        title: 'Lists',
+        content: pageLoader(() => import("./buttons.md")),
+      },
+      {
+        path: '/checkboxes',
+        title: 'Checkboxes',
+        content: pageLoader(() => import("./navigation.md")),
+      },
+      {
+        path: '/tables',
+        title: 'Tables',
+        content: pageLoader(() => import("./tables.md")),
+      },
+      {
+        path: '/text_areas',
+        title: 'Text Areas',
+        content: pageLoader(() => import("./buttons.md")),
+      },
+      {
+        path: '/tabs',
+        title: 'Tabs',
+        content: pageLoader(() => import("./cards.md")),
+      },
+      {
+        path: '/header_footer',
+        title: 'Headers and Footers',
+        content: pageLoader(() => import("./buttons.md")),
+      },
+
+      // Other subpages'
+    ]
+  },
+  {
+    title: 'Downloads',
+    pages: [
+      {
+        path: '/logo',
+        title: 'D.light Logo',
+        content: pageLoader(() => import("./dlight_logo.md")),
+      },
+      {
+        path: '/other_things',
+        title: 'Other Things',
+        content: pageLoader(() => import("./colors.md")),
       },
       // Other subpages'
     ]
   },
+
 ];
 
 
@@ -183,7 +135,26 @@ const theme = [
 ];
 
 ReactDOM.render(
-  <Catalog title="Atlas Design" pages={pages} theme={theme} />,
+  <Catalog 
+    title="Atlas Design"
+    pages={pages} 
+    logoSrc={"dlight.svg"}
+    sidebarColor={{Text: "#eeff00"}}
+    theme={
+      {
+        pageHeadingHeight: "200",
+        textColor: "#4A4E53",
+        linkColor: "#FF5555",
+        pageHeadingBackground: "#FF4612",
+        background: "#FFFFFF",
+        navBarBackground: "#E3E2DF",
+        brandColor: "#FF4612",
+        sidebarColor: "#E3E2DF",
+        sidebarColorActive: "#FF4612",
+        sidebarColorActive: "#FFFFFF",
+      }
+    } 
+    />,
   document.getElementById("catalog")
   
 );

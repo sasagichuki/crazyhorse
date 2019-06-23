@@ -1,0 +1,2 @@
+webpackJsonp([8],{785:function(e,n,t){var r=t(15),a=t(45),o=t(295).PageRenderer;o.__esModule&&(o=o.default);var s=a({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:t(793)}},componentWillMount:function(){},render:function(){return r.createElement(o,Object.assign({},this.props,{content:this.state.content}))}});s.__catalog_loader__=!0,e.exports=s},793:function(e,n){e.exports="```image\nsrc: systems_cover.png\nplain: true\nspan: 6\n```"}});
+//# sourceMappingURL=8.b1fd5676.chunk.js.map

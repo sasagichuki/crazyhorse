@@ -4,15 +4,10 @@ plain: true
 span: 6
 ```
 
-**Welcome to d.Light**
+**The New face of Atlas**
 
-This is an example.
+The Atlas Design System enables you to build rich experiences and custom interfaces with the patterns and established best practices that are aligned with the d.light Brand.
 
+This Design System includes the resources to create user interfaces consistent with the d.light principles, design language, and best practices. Rather than focusing on pixels, developers can focus on application logic, while designers can focus on user experience, interactions, and flows.
 
-```code
-/* Style for "Path 480" */
-width: 295px;
-height: 223px;
-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-background-color: #ffffff;
-```
+These patterns and components provide a unified language and consistent look and feel when designing apps and interfaces.
