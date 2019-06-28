@@ -19,6 +19,11 @@ const pages = [
     title: 'Foundations',
     pages: [
       {
+        path: '/logo',
+        title: 'The d.light Brand',
+        content: pageLoader(() => import("./logo.md")),
+      },
+      {
         path: '/grids',
         title: 'Grids',
         content: pageLoader(() => import("./grids.md")),
@@ -32,6 +37,11 @@ const pages = [
         path: '/fonts',
         title: 'Fonts',
         content: pageLoader(() => import("./fonts.md")),
+      },
+      {
+        path: '/icons',
+        title: 'Illustration & Icons',
+        content: pageLoader(() => import("./icons.md")),
       },
       {
         path: '/typography',
@@ -49,6 +59,11 @@ const pages = [
   {
     title: 'Components',
     pages: [
+      {
+        path: '/charts',
+        title: 'Data & Charts',
+        content: pageLoader(() => import("./charts.md")),
+      },
       {
         path: '/navigation',
         title: 'Navigation',
@@ -117,9 +132,9 @@ const pages = [
         content: pageLoader(() => import("./dlight_logo.md")),
       },
       {
-        path: '/other_things',
-        title: 'Other Things',
-        content: pageLoader(() => import("./colors.md")),
+        path: '/updates',
+        title: 'Updates',
+        content: pageLoader(() => import("./updates.md")),
       },
       // Other subpages'
     ]

@@ -1,6 +1,15 @@
+# Typography
 
+Atlas ’s primary typeface is Myriad Pro
 
-**Here are some Fonts**
+The typeface is used at various weights, primarily Regular (400) and Medium (500). As a general rule, it is best to avoid Light (300) or lighter weights to ensure optimum legibility.
+
+## Headings
+All headlines are set in Graphik Medium (500) and have letter-spacing set to -0.35px.
+
+## Content
+
+Paragraphs are set in Graphik Regular (400).
 
 
 This is a code specimen:
