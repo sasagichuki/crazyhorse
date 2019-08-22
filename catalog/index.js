@@ -132,6 +132,11 @@ const pages = [
         content: pageLoader(() => import("./dlight_logo.md")),
       },
       {
+        path: '/xd_template',
+        title: 'Adobe xd template',
+        content: pageLoader(() => import("./xd_template.md")),
+      },
+      {
         path: '/updates',
         title: 'Updates',
         content: pageLoader(() => import("./updates.md")),
@@ -167,6 +172,7 @@ ReactDOM.render(
         sidebarColor: "#E3E2DF",
         sidebarColorActive: "#FF4612",
         sidebarColorActive: "#FFFFFF",
+        fontFamily: " 'Montserrat', sans-serif",
       }
     } 
     />,

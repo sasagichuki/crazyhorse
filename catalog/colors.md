@@ -14,20 +14,26 @@ span: 2
 ```
 
 ```color
-value: '#606060'
+value: '#4A4E53'
 name: 'Grey'
 span: 1
 ```
 
 ```color
-value: '#ccc'
+value: '#D7D7D7'
 name: 'Light Grey'
 span: 1
 ```
 
 ```color
-value: '#F7F788'
-name: 'Highlight'
+value: '#FFFFFF'
+name: 'White'
+span: 1
+```
+
+```color
+value: '#000000'
+name: 'Black'
 span: 1
 ```
 
@@ -38,56 +44,14 @@ The secondary palette allows us to push our boundries, while staying within the 
 
 ```color-palette|horizontal
 colors:
-   - {value: "#000"}
-   - {value: "#0ee"}
-   - {value: "#0ff"}
-   - {value: "#099"}
-   - {value: "#088"}
-   - {value: "#077"}
-   - {value: "#066"}
-   - {value: "#055"}
-   - {value: "#044"}
-   - {value: "#033"}
-   - {value: "#022"}
-```
-
-```code
-collapsed: true
-lang: js
----
-.<section id="section-name" class="accordion">
-  <h3 class="accordion-title">Accordion group heading (optional)</h3>
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a href="#collapseOne" class="accordion-toggle active" data-toggle="collapse" data-parent="#section-name">This link will toggle the accordion</a>
-    </div><!--/accordion-heading-->
-    <div id="collapseOne" class="accordion-body collapse in">
-      <div class="accordion-inner">
-        <p>Content goes here</p>
-      </div><!--/accordion-inner-->
-    </div><!--/accordion-body-->
-  </div><!--/accordion-group-->
-  <div class="accordion-group">
-    <div class="accordion-heading">
-      <a href="#collapseTwo" class="accordion-toggle" data-toggle="collapse" data-parent="#section-name">This link will toggle the accordion</a>
-    </div><!--/accordion-heading-->
-    <div id="collapseTwo" class="accordion-body collapse">
-      <div class="accordion-inner">
-        <p>Content goes here</p>
-      </div><!--/accordion-inner-->
-    </div><!--/accordion-body-->
-  </div><!--/accordion-group-->
-</section><!--/accordion-->
-<script>
-$(function() {
-  $('.accordion').on('show', function (e) {
-    $(e.target).prev('.accordion-heading').find('.accordion-toggle').addClass('active');
-  });
-  $('.accordion').on('hide', function (e) {
-    $(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
-  });
-});
-</script>
+   - {value: "#FFA000"}
+   - {value: "#FFD200"}
+   - {value: "#00ff00"}
+   - {value: "#108FB9"}
+   - {value: "#B2B2B2"}
+   - {value: "#F4F4F4"}
+   - {value: "#606060"}
+   - {value: "#E3E2DF"} 
 ```
 
 

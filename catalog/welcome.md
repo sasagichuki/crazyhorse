@@ -1,17 +1,13 @@
 ```image
-src: systems_cover.png
+src: systems_cover.svg
 plain: true
-span: 4
+span: 8
 ```
 
 **Introduction**
-
-#### Design has the power to do incredible things for people, especially when it’s clear, concise and consistent. As d.light Atlas grows it’s critical for people’s experience with the brand to remain predictable, yet delightful.
+#### Design has the power to do incredible things for people, especially when it’s clear, concise and consistent. This Atlas guide helps us build a consistent experience that is delightful.
 
 This style guide is our brand’s playbook: a way of presenting people with a polished brand experience in all facets, but also a way to empower members of the d.light Atlas team to move quickly and do excellent work.
-
-What’s Included
-A brand is so much more than a logo. To us, it encompasses all things that make up someone’s perception of the company. For this reason, the style guide presents guidelines along three facets:
 
 
 ```image

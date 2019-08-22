@@ -21,34 +21,5 @@ plain: true
 span: 4
 ```
 
-
 # Strokes
 It’s important to create a visual experience that feels like Atlas, no matter where the user is on the site or in the app. Therefore, guidelines must be followed to ensure that the illustrations are stylistically cohesive.
-
-All illustrations use strokes.
-All strokes, without exception, should be 4 pixels.
-All end caps, without exception, should be rounded.
-All corners, without exception, should be rounded.
-
-```image
-span: 3
-src: delight_test.png
-plain: true
-title: "Catalog Logo"
-description: |
-  The quick brown fox
-  jumps over
-  multiple lines
-```
-
-```code
-collapsed: true
----
-.Rectangle-108 {
-  width: 476.5px;
-  height: 277px;
-  border-radius: 10px;
-  box-shadow: 0 0 0 0 #000000;
-  background-color: #ffffff;
-}
-```

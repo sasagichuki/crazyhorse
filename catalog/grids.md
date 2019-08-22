@@ -3,22 +3,6 @@ src: grid_desktop.png
 plain: true
 span: 10
 ```
-jfjsdfhjksfsjfjks
-sjfhsjkfhjkshfsf
-sljdfhksfkjshf
+The desktop grid consist of 20 columns each with a width of 75px and a gutter of 25px.
 
-```image
-src: grid_desktop_2.png
-plain: true
-span: 10
-```
-
-sfkjhsfjhsfjsdhfjksfjhsdkjf
-sdfljhskfjhksjfhksdf
-sdfjkhskfhsdkjf
-
-```image
-src: grid_desktop_3.png
-plain: true
-span: 10
-```
+To maintain visual rhythmn and consistency the space should be kept at multiples of these numbers.
